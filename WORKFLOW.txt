@@ -1,0 +1,14 @@
+Workflow Dataset2
+
+Transforms:
+- transform_Business_table (transform_Business_cluster.py)
+- create_Business_1_table
+- transform_User_table (transform_Friend_cluster.py)
+- create_Friend_table
+- transform_User_table (transform_Elite_cluster.py)
+- create_Elite_table
+
+Dependencies:
+- create_Elite_table is dependent on transform_User_table
+- create_Friend_table is dependent on transform_User_table
+- create_Business_1_table is dependent on transform_Business_table

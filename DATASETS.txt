@@ -1,0 +1,41 @@
+Our dataset consists of the New York Library's collection of restuarant menus detailing:
+-the dishes available
+-restaurant atmosphere 
+-currency
+-years dishes were introduced 
+-years dishes were discontinued 
+-size of menu 
+-position of items on each menu
+
+Interesting attributes and relationships include:
+-first and last appearance of food item and how this range differs
+-how many menus a certain item appears on
+-comparing the number of menus a dish appears on with the number of times the appears on menus
+
+What we hope to gain from analyzing the data is:
+-historical tastes of guests in restaurants
+-insight on how size of menu has changed over the years
+-types of dishes served throughout the years
+-how prices have changed throughout the years
+
+Download Link:
+https://public.enigma.com/browse/collection/new-york-public-library-menus/e6bd6c47-0bb2-4f18-a746-c7eb02f18619
+
+-------
+
+Our secondary dataset consists of Yelp's collection of reviews, detailing:
+-business information, like name, location information, ratings, and category of business
+-user information, including ids and friend ids 
+-review information, like the actual text of the review, the rating, the tips, and recommendation
+
+Interesting attributes and relationships include:
+-how many businesses a user reviewed
+-how location may affect ratings in a certain city 
+
+What we hope to gain from analyzing the data is:
+-how a restaurants prices affect their ratings
+-how a restaurants location affects its prices
+-insight on how the size of a menu affects its overall ratings
+
+Download Link:
+https://www.yelp.com/dataset

@@ -1,0 +1,20 @@
+For table dataset1.Dish--
+
+We have data points of the highest and lowest prices for each dish. We thought it would be useful to find the range value 
+between these two prices to determine whether certain dishes fluctuate in price more than others (ie, the price of a steak 
+might fluctuate a lot more than the price of a piece of gum, candy bar, etc.). To do this, we are going to perform a 
+transformation in Beam and re-write a new Dish table with this added data in it.
+
+
+For table dataset1.Menu2-- 
+
+We have data points of the page count and dish count for each menu. We thought it might be useful to calculate the average 
+number of dishes per page to determine how concentrated a particular menu is. To do this, we are using a ParDo function in 
+Beam to re-write our Menu table with this metric included.
+
+
+For table dataset1.Menu_Page-- 
+
+We have data points for the height and width of each menu page. We thought it would be interesting to determine whether each
+page was oriented horizontally or vertically. To do this, we are using a ParDo function in Beam to re-write our Menu_Page
+table with this information included. 

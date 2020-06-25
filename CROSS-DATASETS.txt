@@ -1,0 +1,19 @@
+Query 1: The query will join name in dataset2.Business to place in dataset1.Menu and it will print out dish_count and stars
+for each business. We will see if having fewer dishes on the menu correlates with having a higher rating. 
+
+Query 2: We will transform the friend id list for a particular user in dataset2.User to normalize the data to fit first normal
+form. Using this table, we will join to dataset2.Review to find reviews made by both a user and a friend on the same date to 
+see if the ratings were the same.
+
+Query 3: We will use dataset2.Review to average the ratings for a particular establishment. Then, we will join to 
+dataset2.Business to see if the average rating listed is accurate for a business.
+
+Query 4: The query will join name on dataset2.Business to place in dataset1.Menu to print the dishes_per_page and ratings for 
+each business. This will see if a more cluttered menu correlates with having a lower rating.
+
+Query 5: We will transform the friend id list for a particular user in dataset2.User to normalize the data to fit first normal
+form. Using this table, we will join to dataset2.User to find out if the count of a users friends correlates with their 
+total number of reviews given.
+
+Query 6: The query will join name on datset2.Business to place in dataset1.Menu, then dataset1.Menu to dataset1.Menu_Page on 
+menu_id to determine if the ratings on a restaurant have any correlation to the page orientation of their menu. 
