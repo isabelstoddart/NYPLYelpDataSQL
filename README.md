@@ -1,7 +1,6 @@
 # NYPLYelpDataSQL
-
-This is a semester long SQL project created for an undergrad data class at UT Austin.
-
+## This is a semester long SQL project created for an undergrad data class at UT Austin.
+### Description
 Our dataset consists of the New York Library's collection of restuarant menus detailing:
 -the dishes available
 -restaurant atmosphere 
